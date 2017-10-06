@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{675902FD-C9A9-406C-B494-C3B093110B74}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Agile</RootNamespace>
+    <AssemblyName>Agile</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Desktop\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar">
+      <HintPath>H:\New Folder\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="achiev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="achiev.Designer.cs">
+      <DependentUpon>achiev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dashboardDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="employedash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employedash.Designer.cs">
+      <DependentUpon>employedash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main form.Designer.cs">
+      <DependentUpon>main form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="promo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="promo.Designer.cs">
+      <DependentUpon>promo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="transfer2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transfer2.Designer.cs">
+      <DependentUpon>transfer2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="achiev.resx">
+      <DependentUpon>achiev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employedash.resx">
+      <DependentUpon>employedash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main form.resx">
+      <DependentUpon>main form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="promo.resx">
+      <DependentUpon>promo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="transfer2.resx">
+      <DependentUpon>transfer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="dashboardDataSet.xsc">
+      <DependentUpon>dashboardDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet.xss">
+      <DependentUpon>dashboardDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet1.xsc">
+      <DependentUpon>dashboardDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet1.xss">
+      <DependentUpon>dashboardDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet2.xsc">
+      <DependentUpon>dashboardDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet2.xss">
+      <DependentUpon>dashboardDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet3.xsc">
+      <DependentUpon>dashboardDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet3.xss">
+      <DependentUpon>dashboardDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet4.xsc">
+      <DependentUpon>dashboardDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet4.xss">
+      <DependentUpon>dashboardDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet5.xsc">
+      <DependentUpon>dashboardDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet5.xss">
+      <DependentUpon>dashboardDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet6.xsc">
+      <DependentUpon>dashboardDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet6.xss">
+      <DependentUpon>dashboardDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet7.xsc">
+      <DependentUpon>dashboardDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet7.xss">
+      <DependentUpon>dashboardDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet8.xsc">
+      <DependentUpon>dashboardDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet8.xss">
+      <DependentUpon>dashboardDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet9.xsc">
+      <DependentUpon>dashboardDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="dashboardDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dashboardDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dashboardDataSet9.xss">
+      <DependentUpon>dashboardDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\himing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_access-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user-icon.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
